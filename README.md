@@ -1,6 +1,6 @@
 # Intercom
 
-## How to build and deploy the application 
+## How to build and run the application 
 ### Prerequisites:
 Docker and Docker Compose installed in the machine
 
@@ -14,7 +14,7 @@ Run the following command line:
 
     curl -s https://raw.githubusercontent.com/CyJeliel/intercom/master/intercom/intercom.sh | bash
 
-### Instructions for Linux or Mac OS (in case the Automation Script does not work) - Step By Step
+### Alternatively: Instructions for Linux or Mac OS - Step By Step
 
     mkdir projectCindyIntercom
 
