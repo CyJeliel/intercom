@@ -12,35 +12,33 @@ Git command line
 
 Run the following command line:
 
-curl -s https://raw.githubusercontent.com/CyJeliel/intercom/master/intercom/intercom.sh | bash
+    curl -s https://raw.githubusercontent.com/CyJeliel/intercom/master/intercom/intercom.sh | bash
 
 ### Instructions for Linux or Mac OS (in case the Automation Script does not work) - Step By Step
 
-$ mkdir projectCindyIntercom
+    mkdir projectCindyIntercom
 
-$ cd projectCindyIntercom
+    cd projectCindyIntercom
 
-$ git clone git@github.com:CyJeliel/intercom.git
+    git clone git@github.com:CyJeliel/intercom.git
 
-$ cd intercom/intercom
+    cd intercom/intercom
 
-$ docker-compose up
+    docker-compose up
 
 ### Instructions for Windows - Step By Step
 
-In Windows OS:
+    cd ~/Documents/
 
-cd ~/Documents/
+    mkdir projectCindyIntercom
 
-mkdir projectCindyIntercom
+    cd projectCindyIntercom/
 
-cd projectCindyIntercom/
+    git clone git@github.com:CyJeliel/intercom.git
 
-git clone git@github.com:CyJeliel/intercom.git
+    cd intercom/intercom
 
-cd intercom/intercom
-
-docker-compose up
+    docker-compose up
 
 ## Tests
 The tests can be found in the following directory:
