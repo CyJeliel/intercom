@@ -1,4 +1,4 @@
-# intercom
+# Intercom
 
 ## How to build and deploy the application 
 ### Prerequisites:
