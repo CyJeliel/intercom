@@ -8,6 +8,6 @@ services:
     - ../intercom:/usr/src/intercom
     - ~/.m2/:/root/.m2
     working_dir: /usr/src/intercom
-    command: bash -c "sleep 5 && cd /usr/src/intercom && mvn package && java -jar target/intercom-1.0.jar"
+    command: bash -c "sleep 5 && cd /usr/src/intercom && mvn package test && java -jar target/intercom-1.0.jar"
     stdin_open: true
     tty: true
