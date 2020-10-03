@@ -107,4 +107,18 @@ The results are similar to the following lines:
     intercom    | Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
 
 ## Output file
+
+After running 
+
+    docker-compose up
+
+for the example given in the instructions for this program, the last line should be:
+
+
+    intercom    | INFO: There were 16 customers within the 100km range. You can find the description in the file: src/main/resources/output.txt
+    
+Following is the output file:
 https://raw.githubusercontent.com/CyJeliel/intercom/master/intercom/src/main/resources/output.txt
+
+It's possible to configure this file in the following line:
+https://github.com/CyJeliel/intercom/blob/master/intercom/docker-compose.yml#L11
