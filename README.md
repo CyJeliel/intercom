@@ -1,19 +1,43 @@
 # intercom
 
-Pre-requisites:
-1) git installed to be used in the command line
-2) docker and docker-compose installed
-3) Read access to the project:  https://github.com/CyJeliel/intercom
+## How to build and deploy the application 
+### Prerequisites:
+Docker and Docker Compose installed in the machine
 
-Automated script:
+Instructions for installing Docker Compose: https://docs.docker.com/compose/install/
+
+Git command line
+
+### Instructions for Linux or Mac OS - Automation Script
+
+Run the following command line:
+
 curl -s https://raw.githubusercontent.com/CyJeliel/intercom/master/intercom/intercom.sh | bash
 
-Manual steps (for MacOS and Linux):
+### Instructions for Linux or Mac OS (in case the Automation Script does not work) - Step By Step
+
+$ mkdir projectCindyIntercom
+
+$ cd projectCindyIntercom
+
 $ git clone git@github.com:CyJeliel/intercom.git
+
 $ cd intercom/intercom
+
 $ docker-compose up
 
-Manual Steps (for Windows):
+### Instructions for Windows - Step By Step
+
+In Windows OS:
+
+cd ~/Documents/
+
+mkdir projectCindyIntercom
+
+cd projectCindyIntercom/
+
 git clone git@github.com:CyJeliel/intercom.git
-dir intercom\intercom
+
+cd intercom/intercom
+
 docker-compose up
