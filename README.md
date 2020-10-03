@@ -6,7 +6,7 @@ Pre-requisites:
 3) Read access to the project:  https://github.com/CyJeliel/intercom
 
 Automated script:
-bash <(curl -s https://raw.githubusercontent.com/CyJeliel/intercom/master/intercom/intercom.sh?token=AACHV3WXDQ3VHSA7FY3WSQS7PC4NS
+curl -s https://raw.githubusercontent.com/CyJeliel/intercom/master/intercom/intercom.sh | bash
 
 Manual steps (for MacOS and Linux):
 $ git clone git@github.com:CyJeliel/intercom.git
