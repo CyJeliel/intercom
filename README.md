@@ -112,10 +112,11 @@ After running
 
     docker-compose up
 
-for the example given in the instructions for this program, the last line should be:
+for the example given in the instructions for this program, the last lines should be:
 
 
     intercom    | INFO: There were 16 customers within the 100km range. You can find the description in the file: src/main/resources/output.txt
+    intercom exited with code 0
     
 Following is the output file:
 https://raw.githubusercontent.com/CyJeliel/intercom/master/intercom/src/main/resources/output.txt
