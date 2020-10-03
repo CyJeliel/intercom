@@ -41,3 +41,6 @@ git clone git@github.com:CyJeliel/intercom.git
 cd intercom/intercom
 
 docker-compose up
+
+## Output file
+https://raw.githubusercontent.com/CyJeliel/intercom/master/intercom/src/main/resources/output.txt
